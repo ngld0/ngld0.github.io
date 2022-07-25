@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>admin on ngld</title>
+    
+    
+    
+    <link>https://ngld0.github.io/tags/admin/</link>
+    <description>Recent content in admin on ngld</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 23 Jul 2022 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ngld0.github.io/tags/admin/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>https://ngld0.github.io/about/</link>
+      <pubDate>Sat, 23 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://ngld0.github.io/about/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Hi, I&amp;rsquo;m Nguyen Lam [MY CV]#I am a Software Developer Working Experiences#1. Research Assistant at **Multimedia Mobile Networks Laboratory (MMNETLab)**2. Backend Developer at **TMA Solutions**- Projects: Omnivista Cirrus, Omnivista 2500 NMS.3. Android Intership at **BeesighSoft** Projects#1. Multi-platoons Resource Allocation2. Image Processing, Deep Learning3. Evaluate Android Kernel Security by Analysing Source Code **[UIT Essay]**4. Weather Preduction App **[UIT Course Proejct]** Skills#- Pogramming Languages: C/C++, Java, Python, Javascript, Matlab- Databases: SQL, No-SQL- OS: Window, Linux- Network: CCNA- Languages: .
+          
+        
+        </description>
+    </item>
+    
+  </channel>
+</rss>
