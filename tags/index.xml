@@ -5,61 +5,21 @@
     
     
     
-    <link>https://ngld0.github.io/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on ngld</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 23 Jul 2022 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://ngld0.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>blogs</title>
-      <link>https://ngld0.github.io/tags/blogs/</link>
-      <pubDate>Sun, 24 Jul 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://ngld0.github.io/tags/blogs/</guid>
-      <description>
-        
-          
-          
-          
-        
-        
-        
-          
-          
-        
-        </description>
-    </item>
-    
-    <item>
-      <title>hello world</title>
-      <link>https://ngld0.github.io/tags/hello-world/</link>
-      <pubDate>Sun, 24 Jul 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://ngld0.github.io/tags/hello-world/</guid>
-      <description>
-        
-          
-          
-          
-        
-        
-        
-          
-          
-        
-        </description>
-    </item>
     
     <item>
       <title>admin</title>
-      <link>https://ngld0.github.io/tags/admin/</link>
+      <link>/tags/admin/</link>
       <pubDate>Sat, 23 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://ngld0.github.io/tags/admin/</guid>
+      <guid>/tags/admin/</guid>
       <description>
         
           
@@ -76,10 +36,10 @@
     
     <item>
       <title>CV</title>
-      <link>https://ngld0.github.io/tags/cv/</link>
+      <link>/tags/cv/</link>
       <pubDate>Sat, 23 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://ngld0.github.io/tags/cv/</guid>
+      <guid>/tags/cv/</guid>
       <description>
         
           
@@ -96,10 +56,10 @@
     
     <item>
       <title>ngld</title>
-      <link>https://ngld0.github.io/tags/ngld/</link>
+      <link>/tags/ngld/</link>
       <pubDate>Sat, 23 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://ngld0.github.io/tags/ngld/</guid>
+      <guid>/tags/ngld/</guid>
       <description>
         
           
@@ -116,10 +76,10 @@
     
     <item>
       <title>resume</title>
-      <link>https://ngld0.github.io/tags/resume/</link>
+      <link>/tags/resume/</link>
       <pubDate>Sat, 23 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://ngld0.github.io/tags/resume/</guid>
+      <guid>/tags/resume/</guid>
       <description>
         
           
@@ -136,10 +96,50 @@
     
     <item>
       <title>Books</title>
-      <link>https://ngld0.github.io/tags/books/</link>
+      <link>/tags/books/</link>
       <pubDate>Fri, 17 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://ngld0.github.io/tags/books/</guid>
+      <guid>/tags/books/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>hello world</title>
+      <link>/tags/hello-world/</link>
+      <pubDate>Fri, 17 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/hello-world/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>blogs</title>
+      <link>/tags/blogs/</link>
+      <pubDate>Fri, 24 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/blogs/</guid>
       <description>
         
           

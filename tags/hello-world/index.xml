@@ -5,40 +5,21 @@
     
     
     
-    <link>https://ngld0.github.io/tags/hello-world/</link>
+    <link>/tags/hello-world/</link>
     <description>Recent content in hello world on ngld</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Sep 2021 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://ngld0.github.io/tags/hello-world/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/hello-world/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Hello World</title>
-      <link>https://ngld0.github.io/blogs/hello-world/</link>
-      <pubDate>Sun, 24 Jul 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://ngld0.github.io/blogs/hello-world/</guid>
-      <description>
-        
-          &lt;img src=&#34;https://ngld0.github.io/images/404.gif&#34;/&gt;
-          
-        
-        
-        
-          Blogs, Hello world!
-          
-        
-        </description>
-    </item>
     
     <item>
       <title>Hello World</title>
-      <link>https://ngld0.github.io/books/book1/book11/</link>
+      <link>/books/book1/book11/</link>
       <pubDate>Fri, 17 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://ngld0.github.io/books/book1/book11/</guid>
+      <guid>/books/book1/book11/</guid>
       <description>
         
           
@@ -48,6 +29,25 @@
         
         
           Books, Hello World!
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Hello World1</title>
+      <link>/blogs/hello1/</link>
+      <pubDate>Fri, 24 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blogs/hello1/</guid>
+      <description>
+        
+          &lt;img src=&#34;/images/404.gif&#34;/&gt;
+          
+        
+        
+        
+          Blogs, Hello world!
           
         
         </description>

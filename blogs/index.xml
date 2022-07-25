@@ -5,24 +5,24 @@
     
     
     
-    <link>https://ngld0.github.io/blogs/</link>
+    <link>/blogs/</link>
     <description>Recent content in Blogs on ngld</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://ngld0.github.io/blogs/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/blogs/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Hello World</title>
-      <link>https://ngld0.github.io/blogs/hello-world/</link>
-      <pubDate>Sun, 24 Jul 2022 00:00:00 +0000</pubDate>
+      <title>Hello World1</title>
+      <link>/blogs/hello1/</link>
+      <pubDate>Fri, 24 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ngld0.github.io/blogs/hello-world/</guid>
+      <guid>/blogs/hello1/</guid>
       <description>
         
-          &lt;img src=&#34;https://ngld0.github.io/images/404.gif&#34;/&gt;
+          &lt;img src=&#34;/images/404.gif&#34;/&gt;
           
         
         

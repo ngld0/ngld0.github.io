@@ -5,21 +5,21 @@
     
     
     
-    <link>https://ngld0.github.io/books/</link>
+    <link>/books/</link>
     <description>Recent content in Books on ngld</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 17 Sep 2021 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://ngld0.github.io/books/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/books/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hello World</title>
-      <link>https://ngld0.github.io/books/book1/book11/</link>
+      <link>/books/book1/book11/</link>
       <pubDate>Fri, 17 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://ngld0.github.io/books/book1/book11/</guid>
+      <guid>/books/book1/book11/</guid>
       <description>
         
           
