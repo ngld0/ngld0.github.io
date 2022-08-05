@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ngld</title>
+    <title>c on ngld</title>
     
     
     
-    <link>/</link>
-    <description>Recent content on ngld</description>
+    <link>/tags/c/</link>
+    <description>Recent content in c on ngld</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 05 Aug 2022 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/c/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -29,66 +29,6 @@
         
         
           stable_sort()#It comes under the &amp;lt;algorithm&amp;gt; header file stable_sort is used to sort the elements from [first, last) in ascending order. stable_sort is like std::sort, but stable_sort() keeps the relative order of elements with equivalent values. Example of comparing between stable_sort() and sort() vector&amp;lt;string&amp;gt; words = { &amp;#34;kid&amp;#34;,&amp;#34;use&amp;#34;,&amp;#34;ask&amp;#34;,&amp;#34;ten&amp;#34;,&amp;#34;lie&amp;#34;,&amp;#34;yes&amp;#34;,&amp;#34;bad&amp;#34;,&amp;#34;all&amp;#34;,&amp;#34;car&amp;#34;,&amp;#34;boy&amp;#34;,&amp;#34;why&amp;#34;,&amp;#34;hit&amp;#34;,&amp;#34;one&amp;#34;,&amp;#34;our&amp;#34;,&amp;#34;add&amp;#34;,&amp;#34;guy&amp;#34;,&amp;#34;few&amp;#34;,&amp;#34;bar&amp;#34;,&amp;#34;off&amp;#34;,&amp;#34;low&amp;#34;,&amp;#34;day&amp;#34;,&amp;#34;per&amp;#34;,&amp;#34;war&amp;#34;,&amp;#34;bit&amp;#34;,&amp;#34;can&amp;#34;,&amp;#34;gun&amp;#34;,&amp;#34;you&amp;#34;,&amp;#34;six&amp;#34;,&amp;#34;his&amp;#34;,&amp;#34;job&amp;#34;,&amp;#34;act&amp;#34;,&amp;#34;bed&amp;#34;,&amp;#34;sex&amp;#34;,&amp;#34;fly&amp;#34;,&amp;#34;bag&amp;#34;,&amp;#34;own&amp;#34;,&amp;#34;arm&amp;#34;,&amp;#34;put&amp;#34;,&amp;#34;out&amp;#34;,&amp;#34;any&amp;#34;,&amp;#34;hot&amp;#34;,&amp;#34;lay&amp;#34;,&amp;#34;eye&amp;#34;,&amp;#34;cut&amp;#34;,&amp;#34;now&amp;#34;,&amp;#34;nor&amp;#34;,&amp;#34;and&amp;#34;,&amp;#34;oil&amp;#34;,&amp;#34;may&amp;#34;,&amp;#34;her&amp;#34;,&amp;#34;big&amp;#34;,&amp;#34;eat&amp;#34;,&amp;#34;dog&amp;#34;,&amp;#34;leg&amp;#34;,&amp;#34;air&amp;#34;,&amp;#34;say&amp;#34;,&amp;#34;age&amp;#34;,&amp;#34;red&amp;#34;,&amp;#34;not&amp;#34;,&amp;#34;its&amp;#34;,&amp;#34;let&amp;#34;,&amp;#34;the&amp;#34;,&amp;#34;man&amp;#34;,&amp;#34;lot&amp;#34;,&amp;#34;for&amp;#34;,&amp;#34;get&amp;#34;,&amp;#34;she&amp;#34;,&amp;#34;who&amp;#34;,&amp;#34;new&amp;#34;,&amp;#34;way&amp;#34;,&amp;#34;sit&amp;#34;,&amp;#34;buy&amp;#34;,&amp;#34;box&amp;#34;,&amp;#34;ago&amp;#34;,&amp;#34;law&amp;#34;,&amp;#34;key&amp;#34;,&amp;#34;end&amp;#34;,&amp;#34;see&amp;#34;,&amp;#34;old&amp;#34;,&amp;#34;sea&amp;#34;,&amp;#34;far&amp;#34;,&amp;#34;him&amp;#34;,&amp;#34;but&amp;#34;,&amp;#34;art&amp;#34;,&amp;#34;how&amp;#34;,&amp;#34;pay&amp;#34;,&amp;#34;win&amp;#34;,&amp;#34;set&amp;#34;,&amp;#34;top&amp;#34;,&amp;#34;try&amp;#34;,&amp;#34;cup&amp;#34;,&amp;#34;run&amp;#34;,&amp;#34;yet&amp;#34;,&amp;#34;tax&amp;#34;,&amp;#34;gas&amp;#34;,&amp;#34;son&amp;#34;,&amp;#34;too&amp;#34;,&amp;#34;two&amp;#34;,&amp;#34;die&amp;#34; } stable_sort(words.begin(), words.end(),[](const string &amp;amp;a, const string &amp;amp; b){ return a.length() &amp;lt; b.length(); }); The output of stable_sort: words = { &amp;#34;kid&amp;#34;,&amp;#34;use&amp;#34;,&amp;#34;ask&amp;#34;,&amp;#34;ten&amp;#34;,&amp;#34;lie&amp;#34;,&amp;#34;yes&amp;#34;,&amp;#34;bad&amp;#34;,&amp;#34;all&amp;#34;,&amp;#34;car&amp;#34;,&amp;#34;boy&amp;#34;,&amp;#34;why&amp;#34;,&amp;#34;hit&amp;#34;,&amp;#34;one&amp;#34;,&amp;#34;our&amp;#34;,&amp;#34;add&amp;#34;,&amp;#34;guy&amp;#34;,&amp;#34;few&amp;#34;,&amp;#34;bar&amp;#34;,&amp;#34;off&amp;#34;,&amp;#34;low&amp;#34;,&amp;#34;day&amp;#34;,&amp;#34;per&amp;#34;,&amp;#34;war&amp;#34;,&amp;#34;bit&amp;#34;,&amp;#34;can&amp;#34;,&amp;#34;gun&amp;#34;,&amp;#34;you&amp;#34;,&amp;#34;six&amp;#34;,&amp;#34;his&amp;#34;,&amp;#34;job&amp;#34;,&amp;#34;act&amp;#34;,&amp;#34;bed&amp;#34;,&amp;#34;sex&amp;#34;,&amp;#34;fly&amp;#34;,&amp;#34;bag&amp;#34;,&amp;#34;own&amp;#34;,&amp;#34;arm&amp;#34;,&amp;#34;put&amp;#34;,&amp;#34;out&amp;#34;,&amp;#34;any&amp;#34;,&amp;#34;hot&amp;#34;,&amp;#34;lay&amp;#34;,&amp;#34;eye&amp;#34;,&amp;#34;cut&amp;#34;,&amp;#34;now&amp;#34;,&amp;#34;nor&amp;#34;,&amp;#34;and&amp;#34;,&amp;#34;oil&amp;#34;,&amp;#34;may&amp;#34;,&amp;#34;her&amp;#34;,&amp;#34;big&amp;#34;,&amp;#34;eat&amp;#34;,&amp;#34;dog&amp;#34;,&amp;#34;leg&amp;#34;,&amp;#34;air&amp;#34;,&amp;#34;say&amp;#34;,&amp;#34;age&amp;#34;,&amp;#34;red&amp;#34;,&amp;#34;not&amp;#34;,&amp;#34;its&amp;#34;,&amp;#34;let&amp;#34;,&amp;#34;the&amp;#34;,&amp;#34;man&amp;#34;,&amp;#34;lot&amp;#34;,&amp;#34;for&amp;#34;,&amp;#34;get&amp;#34;,&amp;#34;she&amp;#34;,&amp;#34;who&amp;#34;,&amp;#34;new&amp;#34;,&amp;#34;way&amp;#34;,&amp;#34;sit&amp;#34;,&amp;#34;buy&amp;#34;,&amp;#34;box&amp;#34;,&amp;#34;ago&amp;#34;,&amp;#34;law&amp;#34;,&amp;#34;key&amp;#34;,&amp;#34;end&amp;#34;,&amp;#34;see&amp;#34;,&amp;#34;old&amp;#34;,&amp;#34;sea&amp;#34;,&amp;#34;far&amp;#34;,&amp;#34;him&amp;#34;,&amp;#34;but&amp;#34;,&amp;#34;art&amp;#34;,&amp;#34;how&amp;#34;,&amp;#34;pay&amp;#34;,&amp;#34;win&amp;#34;,&amp;#34;set&amp;#34;,&amp;#34;top&amp;#34;,&amp;#34;try&amp;#34;,&amp;#34;cup&amp;#34;,&amp;#34;run&amp;#34;,&amp;#34;yet&amp;#34;,&amp;#34;tax&amp;#34;,&amp;#34;gas&amp;#34;,&amp;#34;son&amp;#34;,&amp;#34;too&amp;#34;,&amp;#34;two&amp;#34;,&amp;#34;die&amp;#34; } sort(words.
-          
-        
-        </description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>/about/</link>
-      <pubDate>Sat, 23 Jul 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/about/</guid>
-      <description>
-        
-          
-          
-          
-        
-        
-        
-          Hi, I&amp;rsquo;m Nguyen Lam [MY CV]#I am a Software Developer Working Experiences#1. Research Assistant at **Multimedia Mobile Networks Laboratory (MMNETLab)**2. Backend Developer at **TMA Solutions**- Projects: Omnivista Cirrus, Omnivista 2500 NMS.3. Android Internship at **BeesighSoft** Projects#1. Multi-platoons Resource Allocation2. Image Processing, Deep Learning3. Evaluate Android Kernel Security by Analysing Source Code **[UIT Essay]**4. Weather Preduction App **[UIT Course Proejct]** Skills#- Pogramming Languages: C/C++, Java, Python, Javascript, Matlab- Databases: SQL, No-SQL- OS: Window, Linux- Network: CCNA- Languages: .
-          
-        
-        </description>
-    </item>
-    
-    <item>
-      <title>Contact</title>
-      <link>/contact/</link>
-      <pubDate>Sat, 23 Jul 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/contact/</guid>
-      <description>
-        
-          
-          
-          
-        
-        
-        
-          Email: nguyenld35@gmail.comPhone: (+886) 0986293436 (tw)Skype: (+84) 0974005841 (vn)Github: github.com/...Twitter: twitter.com/...Linkedin: linkedin.com/... 
-          
-        
-        </description>
-    </item>
-    
-    <item>
-      <title>Listing</title>
-      <link>/markdown/listing/</link>
-      <pubDate>Fri, 17 Sep 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/markdown/listing/</guid>
-      <description>
-        
-          
-          
-          
-        
-        
-        
-          Books, Hello World!
           
         
         </description>
