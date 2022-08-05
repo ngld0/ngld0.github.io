@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hello world on ngld</title>
+    <title>Markdowns on ngld</title>
     
     
     
-    <link>/tags/hello-world/</link>
-    <description>Recent content in Hello world on ngld</description>
+    <link>/markdown/</link>
+    <description>Recent content in Markdowns on ngld</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 17 Sep 2021 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/hello-world/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/markdown/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
