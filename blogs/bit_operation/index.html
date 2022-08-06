@@ -3,7 +3,7 @@
   <head>
     
       <title>
-        std::stable_sort ::
+        bit_operation ::
         ngld
       </title>
     
@@ -11,14 +11,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta
   name="description"
-  content=""
+  content="Bit Operation#Bitwise in gcc build-in Function#__builtin_popcount used to count bit 1 __builtin_ctz used to count traling 0s __builtin_clz used to count the leading 0s Operators in C#Unary Operator: &#43;&#43;, -- Binary Operator: Arithmetic Operator: &#43;, -, *, /, % Relational Operator: &amp;lt;, &amp;lt;=, &amp;gt;, &amp;gt;=, ==, != Logical Operator: &amp;amp;&amp;amp;, ||, ! Bitwise Opearotr: &amp;amp;, |, &amp;lt;&amp;lt;, &amp;gt;&amp;gt;, ~, ^ Assignment Operator: =, &#43;=, -=, *=, /=, %= Tenary Operator: ?"
 />
 <meta
   name="keywords"
   content=""
 />
 <meta name="robots" content="noodp" />
-<link rel="canonical" href="/tags/stdstable_sort/" />
+<link rel="canonical" href="/blogs/bit_operation/" />
 
 
 
@@ -46,20 +46,21 @@
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="std::stable_sort"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:title" content="bit_operation"/>
+<meta name="twitter:description" content="bit operation"/>
 
 
 
-<meta property="og:title" content="std::stable_sort" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="/tags/stdstable_sort/" /><meta property="og:site_name" content="ngld" />
+<meta property="og:title" content="bit_operation" />
+<meta property="og:description" content="bit operation" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/blogs/bit_operation/" /><meta property="article:section" content="blogs" />
+<meta property="article:published_time" content="2022-08-06T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-08-06T00:00:00+00:00" /><meta property="og:site_name" content="ngld" />
 
 
 
 
-<link rel="alternate" type="application/rss+xml" href="/tags/stdstable_sort/index.xml" title="ngld" />
 
 
 
@@ -180,64 +181,175 @@
 
       <div class="content">
         
-  <div class="posts" style="width:100%">
+  
+  
+
+  <div class="post">
+    <h1 class="post-title">bit_operation</h1>
+    <div class="post-meta">
+      
+        <span class="post-date">
+          2022-08-06
+        </span>
+
+        
+          
+        
+      
+
+      
+
+
+      
+    </div>
+
     
-      <div class="post on-list">
-        <h1 class="post-title"><a href="/blogs/stable_sort/">stable_sort</a></h1>
-        <div class="post-meta">
-          
-            <span class="post-date">
-              2022-08-05
-            </span>
-
-            
-          
-          
-
-
-          
-        </div>
-
+      <span class="post-tags">
         
-          <span class="post-tags">
-            
-              <a href="/tags/blogs/">#blogs</a>&nbsp;
-            
-              <a href="/tags/c/c&#43;&#43;/">#c/c&#43;&#43;</a>&nbsp;
-            
-              <a href="/tags/stdstable_sort/">#std::stable_sort</a>&nbsp;
-            
-              <a href="/tags/stdsort/">#std::sort</a>&nbsp;
-            
-          </span>
+          <a href="/tags/blogs/">#blogs</a>&nbsp;
         
+          <a href="/tags/c/c&#43;&#43;/">#c/c&#43;&#43;</a>&nbsp;
+        
+          <a href="/tags/bitwise-operation/">#bitwise operation</a>&nbsp;
+        
+      </span>
+    
 
-        
+    
 
-        <div class="post-content">
-          
-            
-              stable_sort()#It comes under the &lt;algorithm&gt; header file stable_sort is used to sort the elements from [first, last) in ascending order. stable_sort is like std::sort, but stable_sort() keeps the relative order of elements with equivalent values. Example of comparing between stable_sort() and sort() vector&lt;string&gt; words = { &#34;kid&#34;,&#34;use&#34;,&#34;ask&#34;,&#34;ten&#34;,&#34;lie&#34;,&#34;yes&#34;,&#34;bad&#34;,&#34;all&#34;,&#34;car&#34;,&#34;boy&#34;,&#34;why&#34;,&#34;hit&#34;,&#34;one&#34;,&#34;our&#34;,&#34;add&#34;,&#34;guy&#34;,&#34;few&#34;,&#34;bar&#34;,&#34;off&#34;,&#34;low&#34;,&#34;day&#34;,&#34;per&#34;,&#34;war&#34;,&#34;bit&#34;,&#34;can&#34;,&#34;gun&#34;,&#34;you&#34;,&#34;six&#34;,&#34;his&#34;,&#34;job&#34;,&#34;act&#34;,&#34;bed&#34;,&#34;sex&#34;,&#34;fly&#34;,&#34;bag&#34;,&#34;own&#34;,&#34;arm&#34;,&#34;put&#34;,&#34;out&#34;,&#34;any&#34;,&#34;hot&#34;,&#34;lay&#34;,&#34;eye&#34;,&#34;cut&#34;,&#34;now&#34;,&#34;nor&#34;,&#34;and&#34;,&#34;oil&#34;,&#34;may&#34;,&#34;her&#34;,&#34;big&#34;,&#34;eat&#34;,&#34;dog&#34;,&#34;leg&#34;,&#34;air&#34;,&#34;say&#34;,&#34;age&#34;,&#34;red&#34;,&#34;not&#34;,&#34;its&#34;,&#34;let&#34;,&#34;the&#34;,&#34;man&#34;,&#34;lot&#34;,&#34;for&#34;,&#34;get&#34;,&#34;she&#34;,&#34;who&#34;,&#34;new&#34;,&#34;way&#34;,&#34;sit&#34;,&#34;buy&#34;,&#34;box&#34;,&#34;ago&#34;,&#34;law&#34;,&#34;key&#34;,&#34;end&#34;,&#34;see&#34;,&#34;old&#34;,&#34;sea&#34;,&#34;far&#34;,&#34;him&#34;,&#34;but&#34;,&#34;art&#34;,&#34;how&#34;,&#34;pay&#34;,&#34;win&#34;,&#34;set&#34;,&#34;top&#34;,&#34;try&#34;,&#34;cup&#34;,&#34;run&#34;,&#34;yet&#34;,&#34;tax&#34;,&#34;gas&#34;,&#34;son&#34;,&#34;too&#34;,&#34;two&#34;,&#34;die&#34; } stable_sort(words.begin(), words.end(),[](const string &amp;a, const string &amp; b){ return a.length() &lt; b.length(); }); The output of stable_sort: words = { &#34;kid&#34;,&#34;use&#34;,&#34;ask&#34;,&#34;ten&#34;,&#34;lie&#34;,&#34;yes&#34;,&#34;bad&#34;,&#34;all&#34;,&#34;car&#34;,&#34;boy&#34;,&#34;why&#34;,&#34;hit&#34;,&#34;one&#34;,&#34;our&#34;,&#34;add&#34;,&#34;guy&#34;,&#34;few&#34;,&#34;bar&#34;,&#34;off&#34;,&#34;low&#34;,&#34;day&#34;,&#34;per&#34;,&#34;war&#34;,&#34;bit&#34;,&#34;can&#34;,&#34;gun&#34;,&#34;you&#34;,&#34;six&#34;,&#34;his&#34;,&#34;job&#34;,&#34;act&#34;,&#34;bed&#34;,&#34;sex&#34;,&#34;fly&#34;,&#34;bag&#34;,&#34;own&#34;,&#34;arm&#34;,&#34;put&#34;,&#34;out&#34;,&#34;any&#34;,&#34;hot&#34;,&#34;lay&#34;,&#34;eye&#34;,&#34;cut&#34;,&#34;now&#34;,&#34;nor&#34;,&#34;and&#34;,&#34;oil&#34;,&#34;may&#34;,&#34;her&#34;,&#34;big&#34;,&#34;eat&#34;,&#34;dog&#34;,&#34;leg&#34;,&#34;air&#34;,&#34;say&#34;,&#34;age&#34;,&#34;red&#34;,&#34;not&#34;,&#34;its&#34;,&#34;let&#34;,&#34;the&#34;,&#34;man&#34;,&#34;lot&#34;,&#34;for&#34;,&#34;get&#34;,&#34;she&#34;,&#34;who&#34;,&#34;new&#34;,&#34;way&#34;,&#34;sit&#34;,&#34;buy&#34;,&#34;box&#34;,&#34;ago&#34;,&#34;law&#34;,&#34;key&#34;,&#34;end&#34;,&#34;see&#34;,&#34;old&#34;,&#34;sea&#34;,&#34;far&#34;,&#34;him&#34;,&#34;but&#34;,&#34;art&#34;,&#34;how&#34;,&#34;pay&#34;,&#34;win&#34;,&#34;set&#34;,&#34;top&#34;,&#34;try&#34;,&#34;cup&#34;,&#34;run&#34;,&#34;yet&#34;,&#34;tax&#34;,&#34;gas&#34;,&#34;son&#34;,&#34;too&#34;,&#34;two&#34;,&#34;die&#34; } sort(words.
-            
-          
-        </div>
-        
-        
-          <div>
-            <a class="read-more button" href="/blogs/stable_sort/"
-              >More →</a
+    
+    <div class="post-content">
+      
+      
+      <h2 id="bit-operation">
+  Bit Operation
+  <a href="#bit-operation" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<h3 id="bitwise-in-gcc-build-in-function">
+  Bitwise in <code>gcc build-in Function</code>
+  <a href="#bitwise-in-gcc-build-in-function" class="h-anchor" aria-hidden="true">#</a>
+</h3>
+<ul>
+<li><code>__builtin_popcount</code> used to count bit 1</li>
+<li><code>__builtin_ctz</code> used to count traling 0s</li>
+<li><code>__builtin_clz</code> used to count the leading 0s</li>
+</ul>
+<h3 id="operators-in-c">
+  Operators in C
+  <a href="#operators-in-c" class="h-anchor" aria-hidden="true">#</a>
+</h3>
+<ul>
+<li>Unary Operator: <code>++</code>, <code>--</code></li>
+<li>Binary Operator:
+<ul>
+<li>Arithmetic Operator:  <code>+</code>, <code>-</code>, <code>*</code>, <code>/</code>, <code>%</code></li>
+<li>Relational Operator: <code>&lt;</code>, <code>&lt;=</code>, <code>&gt;</code>, <code>&gt;=</code>, <code>==</code>, <code>!=</code></li>
+<li>Logical Operator: <code>&amp;&amp;</code>, <code>||</code>, <code>!</code></li>
+<li>Bitwise Opearotr: <code>&amp;</code>, <code>|</code>, <code>&lt;&lt;</code>, <code>&gt;&gt;</code>, <code>~</code>, <code>^</code></li>
+<li>Assignment Operator: <code>=</code>, <code>+=</code>, <code>-=</code>, <code>*=</code>, <code>/=</code>, <code>%=</code></li>
+</ul>
+</li>
+<li>Tenary Operator: <code> ? :</code></li>
+</ul>
+<h3 id="binary-number-hexadecimal-number">
+  Binary Number, Hexadecimal Number
+  <a href="#binary-number-hexadecimal-number" class="h-anchor" aria-hidden="true">#</a>
+</h3>
+<pre tabindex="0"><code>int n  = 0b1011; // n = 11
+int n = 0xb; // n = 11
+</code></pre><h3 id="leading-digit--highest-digit--leftmost-digit">
+  Leading digit / highest digit / leftmost digit
+  <a href="#leading-digit--highest-digit--leftmost-digit" class="h-anchor" aria-hidden="true">#</a>
+</h3>
+<h3 id="trailing-digit--lowest-digit--rightmost-digit">
+  Trailing digit / lowest digit / rightmost digit
+  <a href="#trailing-digit--lowest-digit--rightmost-digit" class="h-anchor" aria-hidden="true">#</a>
+</h3>
+<h3 id="bit">
+  Bit
+  <a href="#bit" class="h-anchor" aria-hidden="true">#</a>
+</h3>
+<h3 id="byte">
+  Byte
+  <a href="#byte" class="h-anchor" aria-hidden="true">#</a>
+</h3>
+<pre tabindex="0"><code>sizeof(int) // return 4 bytes, 1 byte = 8 bits
+</code></pre><h3 id="msb-most-significant-bit">
+  MSB (most significant bit)
+  <a href="#msb-most-significant-bit" class="h-anchor" aria-hidden="true">#</a>
+</h3>
+<h3 id="lsb-least-significant-bit">
+  LSB (least significant bit)
+  <a href="#lsb-least-significant-bit" class="h-anchor" aria-hidden="true">#</a>
+</h3>
+<h3 id="bitwise-operation">
+  Bitwise Operation
+  <a href="#bitwise-operation" class="h-anchor" aria-hidden="true">#</a>
+</h3>
+<ul>
+<li>&laquo; (left shift), &raquo; (right shift)
+<pre tabindex="0"><code>int n = 1 &lt;&lt; 4; // 000001 -&gt; 010000
+int n &lt;&lt;=  1; // n = n &lt;&lt; 1; n = n * 2
+int n &gt;&gt;=  1; //n = n &gt;&gt; 1; n = n /2; just in case of possitive n
+</code></pre></li>
+<li>&amp; (and)
+<ul>
+<li>it can be used to quickly check if a number is odd or even <!-- raw HTML omitted --> <code>(x &amp; 1) ? &quot;odd&quot;:&quot;even&quot;</code></li>
+</ul>
+<pre tabindex="0"><code>1 &amp; 1 = 1
+1 &amp; 0 = 0
+0 &amp; 1 = 0
+0 &amp; 0 = 0
+</code></pre></li>
+<li>| (or)
+<pre tabindex="0"><code>1 | 1 = 1
+1 | 0 = 1
+0 | 1 = 1
+0 | 0 = 0
+</code></pre></li>
+<li>^ (xor)
+<pre tabindex="0"><code>1 ^ 1 = 0
+1 ^ 0 = 1
+0 ^ 1 = 1
+0 ^ 0 = 0
+</code></pre></li>
+<li>~ (not)
+<pre tabindex="0"><code>~ 1 = 0
+~ 0 = 1
+</code></pre></li>
+</ul>
+
+    </div>
+   
+    
+      
+        <div class="pagination">
+          <div class="pagination__title">
+            <span class="pagination__title-h"
+              >Other Posts</span
             >
+            <hr />
           </div>
+          <div class="pagination__buttons">
+            
+            
+              <span class="button next">
+                <a href="/blogs/priority_queue/">
+                  <span class="button__text">Priority_queue</span>
+                  <span class="button__icon">→</span>
+                </a>
+              </span>
+            
+          </div>
+        </div>
+      
+    
+    
+      
         
-      </div>
-    
-    <div class="pagination">
-  <div class="pagination__buttons">
-    
-    
-  </div>
-</div>
 
+      
+    
   </div>
 
       </div>

@@ -3,7 +3,7 @@
   <head>
     
       <title>
-        c ::
+        queue ::
         ngld
       </title>
     
@@ -18,7 +18,7 @@
   content=""
 />
 <meta name="robots" content="noodp" />
-<link rel="canonical" href="/tags/c/" />
+<link rel="canonical" href="/tags/queue/" />
 
 
 
@@ -46,20 +46,20 @@
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="c"/>
+<meta name="twitter:title" content="queue"/>
 <meta name="twitter:description" content=""/>
 
 
 
-<meta property="og:title" content="c" />
+<meta property="og:title" content="queue" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="/tags/c/" /><meta property="og:site_name" content="ngld" />
+<meta property="og:url" content="/tags/queue/" /><meta property="og:site_name" content="ngld" />
 
 
 
 
-<link rel="alternate" type="application/rss+xml" href="/tags/c/index.xml" title="ngld" />
+<link rel="alternate" type="application/rss+xml" href="/tags/queue/index.xml" title="ngld" />
 
 
 
@@ -183,11 +183,11 @@
   <div class="posts" style="width:100%">
     
       <div class="post on-list">
-        <h1 class="post-title"><a href="/blogs/stable_sort/">stable_sort</a></h1>
+        <h1 class="post-title"><a href="/blogs/priority_queue/">Priority_queue</a></h1>
         <div class="post-meta">
           
             <span class="post-date">
-              2022-08-05
+              2022-08-06
             </span>
 
             
@@ -203,11 +203,13 @@
             
               <a href="/tags/blogs/">#blogs</a>&nbsp;
             
-              <a href="/tags/c/">#c</a>&nbsp;
+              <a href="/tags/c/c&#43;&#43;/">#c/c&#43;&#43;</a>&nbsp;
             
-              <a href="/tags/stdstable_sort/">#std::stable_sort</a>&nbsp;
+              <a href="/tags/priority_queue/">#priority_queue</a>&nbsp;
             
-              <a href="/tags/stdsort/">#std::sort</a>&nbsp;
+              <a href="/tags/queue/">#queue</a>&nbsp;
+            
+              <a href="/tags/dequeue/">#dequeue</a>&nbsp;
             
           </span>
         
@@ -217,14 +219,14 @@
         <div class="post-content">
           
             
-              stable_sort()#It comes under the &lt;algorithm&gt; header file stable_sort is used to sort the elements from [first, last) in ascending order. stable_sort is like std::sort, but stable_sort() keeps the relative order of elements with equivalent values. Example of comparing between stable_sort() and sort() vector&lt;string&gt; words = { &#34;kid&#34;,&#34;use&#34;,&#34;ask&#34;,&#34;ten&#34;,&#34;lie&#34;,&#34;yes&#34;,&#34;bad&#34;,&#34;all&#34;,&#34;car&#34;,&#34;boy&#34;,&#34;why&#34;,&#34;hit&#34;,&#34;one&#34;,&#34;our&#34;,&#34;add&#34;,&#34;guy&#34;,&#34;few&#34;,&#34;bar&#34;,&#34;off&#34;,&#34;low&#34;,&#34;day&#34;,&#34;per&#34;,&#34;war&#34;,&#34;bit&#34;,&#34;can&#34;,&#34;gun&#34;,&#34;you&#34;,&#34;six&#34;,&#34;his&#34;,&#34;job&#34;,&#34;act&#34;,&#34;bed&#34;,&#34;sex&#34;,&#34;fly&#34;,&#34;bag&#34;,&#34;own&#34;,&#34;arm&#34;,&#34;put&#34;,&#34;out&#34;,&#34;any&#34;,&#34;hot&#34;,&#34;lay&#34;,&#34;eye&#34;,&#34;cut&#34;,&#34;now&#34;,&#34;nor&#34;,&#34;and&#34;,&#34;oil&#34;,&#34;may&#34;,&#34;her&#34;,&#34;big&#34;,&#34;eat&#34;,&#34;dog&#34;,&#34;leg&#34;,&#34;air&#34;,&#34;say&#34;,&#34;age&#34;,&#34;red&#34;,&#34;not&#34;,&#34;its&#34;,&#34;let&#34;,&#34;the&#34;,&#34;man&#34;,&#34;lot&#34;,&#34;for&#34;,&#34;get&#34;,&#34;she&#34;,&#34;who&#34;,&#34;new&#34;,&#34;way&#34;,&#34;sit&#34;,&#34;buy&#34;,&#34;box&#34;,&#34;ago&#34;,&#34;law&#34;,&#34;key&#34;,&#34;end&#34;,&#34;see&#34;,&#34;old&#34;,&#34;sea&#34;,&#34;far&#34;,&#34;him&#34;,&#34;but&#34;,&#34;art&#34;,&#34;how&#34;,&#34;pay&#34;,&#34;win&#34;,&#34;set&#34;,&#34;top&#34;,&#34;try&#34;,&#34;cup&#34;,&#34;run&#34;,&#34;yet&#34;,&#34;tax&#34;,&#34;gas&#34;,&#34;son&#34;,&#34;too&#34;,&#34;two&#34;,&#34;die&#34; } stable_sort(words.begin(), words.end(),[](const string &amp;a, const string &amp; b){ return a.length() &lt; b.length(); }); The output of stable_sort: words = { &#34;kid&#34;,&#34;use&#34;,&#34;ask&#34;,&#34;ten&#34;,&#34;lie&#34;,&#34;yes&#34;,&#34;bad&#34;,&#34;all&#34;,&#34;car&#34;,&#34;boy&#34;,&#34;why&#34;,&#34;hit&#34;,&#34;one&#34;,&#34;our&#34;,&#34;add&#34;,&#34;guy&#34;,&#34;few&#34;,&#34;bar&#34;,&#34;off&#34;,&#34;low&#34;,&#34;day&#34;,&#34;per&#34;,&#34;war&#34;,&#34;bit&#34;,&#34;can&#34;,&#34;gun&#34;,&#34;you&#34;,&#34;six&#34;,&#34;his&#34;,&#34;job&#34;,&#34;act&#34;,&#34;bed&#34;,&#34;sex&#34;,&#34;fly&#34;,&#34;bag&#34;,&#34;own&#34;,&#34;arm&#34;,&#34;put&#34;,&#34;out&#34;,&#34;any&#34;,&#34;hot&#34;,&#34;lay&#34;,&#34;eye&#34;,&#34;cut&#34;,&#34;now&#34;,&#34;nor&#34;,&#34;and&#34;,&#34;oil&#34;,&#34;may&#34;,&#34;her&#34;,&#34;big&#34;,&#34;eat&#34;,&#34;dog&#34;,&#34;leg&#34;,&#34;air&#34;,&#34;say&#34;,&#34;age&#34;,&#34;red&#34;,&#34;not&#34;,&#34;its&#34;,&#34;let&#34;,&#34;the&#34;,&#34;man&#34;,&#34;lot&#34;,&#34;for&#34;,&#34;get&#34;,&#34;she&#34;,&#34;who&#34;,&#34;new&#34;,&#34;way&#34;,&#34;sit&#34;,&#34;buy&#34;,&#34;box&#34;,&#34;ago&#34;,&#34;law&#34;,&#34;key&#34;,&#34;end&#34;,&#34;see&#34;,&#34;old&#34;,&#34;sea&#34;,&#34;far&#34;,&#34;him&#34;,&#34;but&#34;,&#34;art&#34;,&#34;how&#34;,&#34;pay&#34;,&#34;win&#34;,&#34;set&#34;,&#34;top&#34;,&#34;try&#34;,&#34;cup&#34;,&#34;run&#34;,&#34;yet&#34;,&#34;tax&#34;,&#34;gas&#34;,&#34;son&#34;,&#34;too&#34;,&#34;two&#34;,&#34;die&#34; } sort(words.
+              priority_queue using top(), pop(), empty(), &hellip; queue using front(), pop(), back(), &hellip; deque using push_front(), push_back(), pop_front(), pop_back(), &hellip; priority_queue#Example of priority_queue priority_queue&lt;int&gt; pq; pq.push(10); pq.push(20); pq.push(30); pq.push(40); pq.push(12); pq.push(1); pq.push(5); Default C++ creates a max-heap for priority queue while(!pq.empty()){ cout&lt;&lt; pq.top()&lt;&lt; &#34; &#34;; pq.pop(); } // 40 30 20 12 10 5 1 pq.size(); // 7 pq.top(); // 40 pq.pop(); // 30 20 12 10 5 1 Creating min-heap for priority queue while(!
             
           
         </div>
         
         
           <div>
-            <a class="read-more button" href="/blogs/stable_sort/"
+            <a class="read-more button" href="/blogs/priority_queue/"
               >More →</a
             >
           </div>
