@@ -9,17 +9,17 @@
     <description>Recent content in Tags on ngld</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 06 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Aug 2022 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>bitwise operation</title>
-      <link>/tags/bitwise-operation/</link>
-      <pubDate>Sat, 06 Aug 2022 00:00:00 +0000</pubDate>
+      <title>blogs</title>
+      <link>/tags/blogs/</link>
+      <pubDate>Tue, 16 Aug 2022 00:00:00 +0000</pubDate>
       
-      <guid>/tags/bitwise-operation/</guid>
+      <guid>/tags/blogs/</guid>
       <description>
         
           
@@ -35,11 +35,71 @@
     </item>
     
     <item>
-      <title>blogs</title>
-      <link>/tags/blogs/</link>
+      <title>Algorithm</title>
+      <link>/tags/algorithm/</link>
+      <pubDate>Sun, 07 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/algorithm/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Depth First Search</title>
+      <link>/tags/depth-first-search/</link>
+      <pubDate>Sun, 07 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/depth-first-search/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>DFS</title>
+      <link>/tags/dfs/</link>
+      <pubDate>Sun, 07 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/dfs/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>bitwise operation</title>
+      <link>/tags/bitwise-operation/</link>
       <pubDate>Sat, 06 Aug 2022 00:00:00 +0000</pubDate>
       
-      <guid>/tags/blogs/</guid>
+      <guid>/tags/bitwise-operation/</guid>
       <description>
         
           

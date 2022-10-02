@@ -11,7 +11,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta
   name="description"
-  content="priority_queue using top(), pop(), empty(), &amp;hellip; queue using front(), pop(), back(), &amp;hellip; deque using push_front(), push_back(), pop_front(), pop_back(), &amp;hellip; priority_queue#Example of priority_queue priority_queue&amp;lt;int&amp;gt; pq; pq.push(10); pq.push(20); pq.push(30); pq.push(40); pq.push(12); pq.push(1); pq.push(5); Default C&#43;&#43; creates a max-heap for priority queue while(!pq.empty()){ cout&amp;lt;&amp;lt; pq.top()&amp;lt;&amp;lt; &amp;#34; &amp;#34;; pq.pop(); } // 40 30 20 12 10 5 1 pq.size(); // 7 pq.top(); // 40 pq.pop(); // 30 20 12 10 5 1 Creating min-heap for priority queue while(!"
+  content="priority_queue using top(), pop(), empty(), &amp;hellip; queue using front(), pop(), back(), &amp;hellip; deque using push_front(), push_back(), pop_front(), pop_back(), &amp;hellip; priority_queue#Example of priority_queue priority_queue&amp;lt;int&amp;gt; pq;pq.push(10);pq.push(20);pq.push(30);pq.push(40);pq.push(12);pq.push(1);pq.push(5); Default C&#43;&#43; creates a max-heap for priority queue while(!pq.empty()){cout&amp;lt;&amp;lt; pq.top()&amp;lt;&amp;lt; &amp;#34; &amp;#34;;pq.pop();}// 40 30 20 12 10 5 1pq.size(); // 7pq.top(); // 40pq.pop(); // 30 20 12 10 5 1 Creating min-heap for priority queue while(!"
 />
 <meta
   name="keywords"
@@ -47,12 +47,12 @@
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Priority_queue"/>
-<meta name="twitter:description" content="priority_queue using top(), pop(), empty(), &hellip; queue using front(), pop(), back(), &hellip; deque using push_front(), push_back(), pop_front(), pop_back(), &hellip; priority_queue#Example of priority_queue priority_queue&lt;int&gt; pq; pq.push(10); pq.push(20); pq.push(30); pq.push(40); pq.push(12); pq.push(1); pq.push(5); Default C&#43;&#43; creates a max-heap for priority queue while(!pq.empty()){ cout&lt;&lt; pq.top()&lt;&lt; &#34; &#34;; pq.pop(); } // 40 30 20 12 10 5 1 pq.size(); // 7 pq.top(); // 40 pq.pop(); // 30 20 12 10 5 1 Creating min-heap for priority queue while(!"/>
+<meta name="twitter:description" content="priority_queue using top(), pop(), empty(), &hellip; queue using front(), pop(), back(), &hellip; deque using push_front(), push_back(), pop_front(), pop_back(), &hellip; priority_queue#Example of priority_queue priority_queue&lt;int&gt; pq;pq.push(10);pq.push(20);pq.push(30);pq.push(40);pq.push(12);pq.push(1);pq.push(5); Default C&#43;&#43; creates a max-heap for priority queue while(!pq.empty()){cout&lt;&lt; pq.top()&lt;&lt; &#34; &#34;;pq.pop();}// 40 30 20 12 10 5 1pq.size(); // 7pq.top(); // 40pq.pop(); // 30 20 12 10 5 1 Creating min-heap for priority queue while(!"/>
 
 
 
 <meta property="og:title" content="Priority_queue" />
-<meta property="og:description" content="priority_queue using top(), pop(), empty(), &hellip; queue using front(), pop(), back(), &hellip; deque using push_front(), push_back(), pop_front(), pop_back(), &hellip; priority_queue#Example of priority_queue priority_queue&lt;int&gt; pq; pq.push(10); pq.push(20); pq.push(30); pq.push(40); pq.push(12); pq.push(1); pq.push(5); Default C&#43;&#43; creates a max-heap for priority queue while(!pq.empty()){ cout&lt;&lt; pq.top()&lt;&lt; &#34; &#34;; pq.pop(); } // 40 30 20 12 10 5 1 pq.size(); // 7 pq.top(); // 40 pq.pop(); // 30 20 12 10 5 1 Creating min-heap for priority queue while(!" />
+<meta property="og:description" content="priority_queue using top(), pop(), empty(), &hellip; queue using front(), pop(), back(), &hellip; deque using push_front(), push_back(), pop_front(), pop_back(), &hellip; priority_queue#Example of priority_queue priority_queue&lt;int&gt; pq;pq.push(10);pq.push(20);pq.push(30);pq.push(40);pq.push(12);pq.push(1);pq.push(5); Default C&#43;&#43; creates a max-heap for priority queue while(!pq.empty()){cout&lt;&lt; pq.top()&lt;&lt; &#34; &#34;;pq.pop();}// 40 30 20 12 10 5 1pq.size(); // 7pq.top(); // 40pq.pop(); // 30 20 12 10 5 1 Creating min-heap for priority queue while(!" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/blogs/priority_queue/" /><meta property="article:section" content="blogs" />
 <meta property="article:published_time" content="2022-08-06T00:00:00+00:00" />
@@ -295,6 +295,12 @@ while(!pq.empty()){
 <li>If the deque is empty, it shows undefined behavior.</li>
 <li>They are similar to <code>vectors</code>, but are more efficient in case of insertion and deletion of elements at the end, and also the beginning.</li>
 <li>Unlike <code>vectors</code>, contiguous storage allocation may not be guaranteed.</li>
+<li>deque &gt;&lt; list:
+<ul>
+<li>A deque is very much like a vector.</li>
+<li>A list is a doubly linked list.</li>
+</ul>
+</li>
 <li>Example of <code>push_front</code>, <code>push_back</code></li>
 </ul>
 <pre tabindex="0"><code>deque&lt;int&gt; pq;

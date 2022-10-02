@@ -2,22 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/tags/blogs/</loc>
+    <lastmod>2022-08-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/blogs/</loc>
+    <lastmod>2022-08-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/blogs/fasterio/</loc>
+    <lastmod>2022-08-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2022-08-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2022-08-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/algorithm/</loc>
+    <lastmod>2022-08-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/depth-first-search/</loc>
+    <lastmod>2022-08-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/blogs/depth-first-search/</loc>
+    <lastmod>2022-08-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/dfs/</loc>
+    <lastmod>2022-08-07T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/blogs/bit_operation/</loc>
     <lastmod>2022-08-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/bitwise-operation/</loc>
     <lastmod>2022-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/blogs/</loc>
-    <lastmod>2022-08-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/blogs/</loc>
-    <lastmod>2022-08-06T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/tags/dequeue/</loc>
-    <lastmod>2022-08-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/</loc>
     <lastmod>2022-08-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/priority_queue/</loc>
@@ -27,9 +45,6 @@
     <lastmod>2022-08-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/queue/</loc>
-    <lastmod>2022-08-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2022-08-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/blogs/stable_sort/</loc>

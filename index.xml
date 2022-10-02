@@ -9,10 +9,50 @@
     <description>Recent content on ngld</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 06 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Aug 2022 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>FasterIO</title>
+      <link>/blogs/fasterio/</link>
+      <pubDate>Tue, 16 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/blogs/fasterio/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Using this for c++#auto fasterIO = []() {std::ios::sync_with_stdio(false);cin.tie(nullptr);cout.tie(nullptr);return 0;}();// orauto fasterIO = []() {std::ios::sync_with_stdio(false);cin.tie(nullptr);cout.tie(nullptr);return 0;}(); 
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Depth First Search</title>
+      <link>/blogs/depth-first-search/</link>
+      <pubDate>Sun, 07 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/blogs/depth-first-search/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Depth First Search (DFS)#Definition#DFS used for traversing tree or graph. The backtracking is used for traversal. Travel from deepest node backtracks it parents. kinds of DFS in tree#Recursive (Time O(n), space O(n))#Preorder (root, left, right) void preorder(struct Node* node){if(node == nullptr) return;cout&amp;lt;&amp;lt;node-&amp;gt;val();preorder(node-&amp;gt;left);preorder(node-&amp;gt;right);} Inorder (left, root, right) void preorder(struct Node* node){if(node == nullptr) return;preorder(node-&amp;gt;left);cout&amp;lt;&amp;lt;node-&amp;gt;val();preorder(node-&amp;gt;right);} Postorder (left,right, root) void preorder(struct Node* node){if(node == nullptr) return;preorder(node-&amp;gt;left);preorder(node-&amp;gt;right);cout&amp;lt;&amp;lt;node-&amp;gt;val();} Iterative#preorder void iterativePreorder(TreeNode root){if(root == nullptr) return;stack&amp;lt;TreeNode&amp;gt; st;TreeNode cur = root;st.
+          
+        
+        </description>
+    </item>
     
     <item>
       <title>bit_operation</title>
@@ -48,7 +88,7 @@
         
         
         
-          priority_queue using top(), pop(), empty(), &amp;hellip; queue using front(), pop(), back(), &amp;hellip; deque using push_front(), push_back(), pop_front(), pop_back(), &amp;hellip; priority_queue#Example of priority_queue priority_queue&amp;lt;int&amp;gt; pq; pq.push(10); pq.push(20); pq.push(30); pq.push(40); pq.push(12); pq.push(1); pq.push(5); Default C++ creates a max-heap for priority queue while(!pq.empty()){ cout&amp;lt;&amp;lt; pq.top()&amp;lt;&amp;lt; &amp;#34; &amp;#34;; pq.pop(); } // 40 30 20 12 10 5 1 pq.size(); // 7 pq.top(); // 40 pq.pop(); // 30 20 12 10 5 1 Creating min-heap for priority queue while(!
+          priority_queue using top(), pop(), empty(), &amp;hellip; queue using front(), pop(), back(), &amp;hellip; deque using push_front(), push_back(), pop_front(), pop_back(), &amp;hellip; priority_queue#Example of priority_queue priority_queue&amp;lt;int&amp;gt; pq;pq.push(10);pq.push(20);pq.push(30);pq.push(40);pq.push(12);pq.push(1);pq.push(5); Default C++ creates a max-heap for priority queue while(!pq.empty()){cout&amp;lt;&amp;lt; pq.top()&amp;lt;&amp;lt; &amp;#34; &amp;#34;;pq.pop();}// 40 30 20 12 10 5 1pq.size(); // 7pq.top(); // 40pq.pop(); // 30 20 12 10 5 1 Creating min-heap for priority queue while(!
           
         
         </description>
@@ -68,7 +108,7 @@
         
         
         
-          stable_sort()#It comes under the &amp;lt;algorithm&amp;gt; header file stable_sort is used to sort the elements from [first, last) in ascending order. stable_sort is like std::sort, but stable_sort() keeps the relative order of elements with equivalent values. Example of comparing between stable_sort() and sort() vector&amp;lt;string&amp;gt; words = { &amp;#34;kid&amp;#34;,&amp;#34;use&amp;#34;,&amp;#34;ask&amp;#34;,&amp;#34;ten&amp;#34;,&amp;#34;lie&amp;#34;,&amp;#34;yes&amp;#34;,&amp;#34;bad&amp;#34;,&amp;#34;all&amp;#34;,&amp;#34;car&amp;#34;,&amp;#34;boy&amp;#34;,&amp;#34;why&amp;#34;,&amp;#34;hit&amp;#34;,&amp;#34;one&amp;#34;,&amp;#34;our&amp;#34;,&amp;#34;add&amp;#34;,&amp;#34;guy&amp;#34;,&amp;#34;few&amp;#34;,&amp;#34;bar&amp;#34;,&amp;#34;off&amp;#34;,&amp;#34;low&amp;#34;,&amp;#34;day&amp;#34;,&amp;#34;per&amp;#34;,&amp;#34;war&amp;#34;,&amp;#34;bit&amp;#34;,&amp;#34;can&amp;#34;,&amp;#34;gun&amp;#34;,&amp;#34;you&amp;#34;,&amp;#34;six&amp;#34;,&amp;#34;his&amp;#34;,&amp;#34;job&amp;#34;,&amp;#34;act&amp;#34;,&amp;#34;bed&amp;#34;,&amp;#34;sex&amp;#34;,&amp;#34;fly&amp;#34;,&amp;#34;bag&amp;#34;,&amp;#34;own&amp;#34;,&amp;#34;arm&amp;#34;,&amp;#34;put&amp;#34;,&amp;#34;out&amp;#34;,&amp;#34;any&amp;#34;,&amp;#34;hot&amp;#34;,&amp;#34;lay&amp;#34;,&amp;#34;eye&amp;#34;,&amp;#34;cut&amp;#34;,&amp;#34;now&amp;#34;,&amp;#34;nor&amp;#34;,&amp;#34;and&amp;#34;,&amp;#34;oil&amp;#34;,&amp;#34;may&amp;#34;,&amp;#34;her&amp;#34;,&amp;#34;big&amp;#34;,&amp;#34;eat&amp;#34;,&amp;#34;dog&amp;#34;,&amp;#34;leg&amp;#34;,&amp;#34;air&amp;#34;,&amp;#34;say&amp;#34;,&amp;#34;age&amp;#34;,&amp;#34;red&amp;#34;,&amp;#34;not&amp;#34;,&amp;#34;its&amp;#34;,&amp;#34;let&amp;#34;,&amp;#34;the&amp;#34;,&amp;#34;man&amp;#34;,&amp;#34;lot&amp;#34;,&amp;#34;for&amp;#34;,&amp;#34;get&amp;#34;,&amp;#34;she&amp;#34;,&amp;#34;who&amp;#34;,&amp;#34;new&amp;#34;,&amp;#34;way&amp;#34;,&amp;#34;sit&amp;#34;,&amp;#34;buy&amp;#34;,&amp;#34;box&amp;#34;,&amp;#34;ago&amp;#34;,&amp;#34;law&amp;#34;,&amp;#34;key&amp;#34;,&amp;#34;end&amp;#34;,&amp;#34;see&amp;#34;,&amp;#34;old&amp;#34;,&amp;#34;sea&amp;#34;,&amp;#34;far&amp;#34;,&amp;#34;him&amp;#34;,&amp;#34;but&amp;#34;,&amp;#34;art&amp;#34;,&amp;#34;how&amp;#34;,&amp;#34;pay&amp;#34;,&amp;#34;win&amp;#34;,&amp;#34;set&amp;#34;,&amp;#34;top&amp;#34;,&amp;#34;try&amp;#34;,&amp;#34;cup&amp;#34;,&amp;#34;run&amp;#34;,&amp;#34;yet&amp;#34;,&amp;#34;tax&amp;#34;,&amp;#34;gas&amp;#34;,&amp;#34;son&amp;#34;,&amp;#34;too&amp;#34;,&amp;#34;two&amp;#34;,&amp;#34;die&amp;#34; } stable_sort(words.begin(), words.end(),[](const string &amp;amp;a, const string &amp;amp; b){ return a.length() &amp;lt; b.length(); }); The output of stable_sort: words = { &amp;#34;kid&amp;#34;,&amp;#34;use&amp;#34;,&amp;#34;ask&amp;#34;,&amp;#34;ten&amp;#34;,&amp;#34;lie&amp;#34;,&amp;#34;yes&amp;#34;,&amp;#34;bad&amp;#34;,&amp;#34;all&amp;#34;,&amp;#34;car&amp;#34;,&amp;#34;boy&amp;#34;,&amp;#34;why&amp;#34;,&amp;#34;hit&amp;#34;,&amp;#34;one&amp;#34;,&amp;#34;our&amp;#34;,&amp;#34;add&amp;#34;,&amp;#34;guy&amp;#34;,&amp;#34;few&amp;#34;,&amp;#34;bar&amp;#34;,&amp;#34;off&amp;#34;,&amp;#34;low&amp;#34;,&amp;#34;day&amp;#34;,&amp;#34;per&amp;#34;,&amp;#34;war&amp;#34;,&amp;#34;bit&amp;#34;,&amp;#34;can&amp;#34;,&amp;#34;gun&amp;#34;,&amp;#34;you&amp;#34;,&amp;#34;six&amp;#34;,&amp;#34;his&amp;#34;,&amp;#34;job&amp;#34;,&amp;#34;act&amp;#34;,&amp;#34;bed&amp;#34;,&amp;#34;sex&amp;#34;,&amp;#34;fly&amp;#34;,&amp;#34;bag&amp;#34;,&amp;#34;own&amp;#34;,&amp;#34;arm&amp;#34;,&amp;#34;put&amp;#34;,&amp;#34;out&amp;#34;,&amp;#34;any&amp;#34;,&amp;#34;hot&amp;#34;,&amp;#34;lay&amp;#34;,&amp;#34;eye&amp;#34;,&amp;#34;cut&amp;#34;,&amp;#34;now&amp;#34;,&amp;#34;nor&amp;#34;,&amp;#34;and&amp;#34;,&amp;#34;oil&amp;#34;,&amp;#34;may&amp;#34;,&amp;#34;her&amp;#34;,&amp;#34;big&amp;#34;,&amp;#34;eat&amp;#34;,&amp;#34;dog&amp;#34;,&amp;#34;leg&amp;#34;,&amp;#34;air&amp;#34;,&amp;#34;say&amp;#34;,&amp;#34;age&amp;#34;,&amp;#34;red&amp;#34;,&amp;#34;not&amp;#34;,&amp;#34;its&amp;#34;,&amp;#34;let&amp;#34;,&amp;#34;the&amp;#34;,&amp;#34;man&amp;#34;,&amp;#34;lot&amp;#34;,&amp;#34;for&amp;#34;,&amp;#34;get&amp;#34;,&amp;#34;she&amp;#34;,&amp;#34;who&amp;#34;,&amp;#34;new&amp;#34;,&amp;#34;way&amp;#34;,&amp;#34;sit&amp;#34;,&amp;#34;buy&amp;#34;,&amp;#34;box&amp;#34;,&amp;#34;ago&amp;#34;,&amp;#34;law&amp;#34;,&amp;#34;key&amp;#34;,&amp;#34;end&amp;#34;,&amp;#34;see&amp;#34;,&amp;#34;old&amp;#34;,&amp;#34;sea&amp;#34;,&amp;#34;far&amp;#34;,&amp;#34;him&amp;#34;,&amp;#34;but&amp;#34;,&amp;#34;art&amp;#34;,&amp;#34;how&amp;#34;,&amp;#34;pay&amp;#34;,&amp;#34;win&amp;#34;,&amp;#34;set&amp;#34;,&amp;#34;top&amp;#34;,&amp;#34;try&amp;#34;,&amp;#34;cup&amp;#34;,&amp;#34;run&amp;#34;,&amp;#34;yet&amp;#34;,&amp;#34;tax&amp;#34;,&amp;#34;gas&amp;#34;,&amp;#34;son&amp;#34;,&amp;#34;too&amp;#34;,&amp;#34;two&amp;#34;,&amp;#34;die&amp;#34; } sort(words.
+          stable_sort()#It comes under the &amp;lt;algorithm&amp;gt; header file stable_sort is used to sort the elements from [first, last) in ascending order. stable_sort is like std::sort, but stable_sort() keeps the relative order of elements with equivalent values. Example of comparing between stable_sort() and sort() vector&amp;lt;string&amp;gt; words = {&amp;#34;kid&amp;#34;,&amp;#34;use&amp;#34;,&amp;#34;ask&amp;#34;,&amp;#34;ten&amp;#34;,&amp;#34;lie&amp;#34;,&amp;#34;yes&amp;#34;,&amp;#34;bad&amp;#34;,&amp;#34;all&amp;#34;,&amp;#34;car&amp;#34;,&amp;#34;boy&amp;#34;,&amp;#34;why&amp;#34;,&amp;#34;hit&amp;#34;,&amp;#34;one&amp;#34;,&amp;#34;our&amp;#34;,&amp;#34;add&amp;#34;,&amp;#34;guy&amp;#34;,&amp;#34;few&amp;#34;,&amp;#34;bar&amp;#34;,&amp;#34;off&amp;#34;,&amp;#34;low&amp;#34;,&amp;#34;day&amp;#34;,&amp;#34;per&amp;#34;,&amp;#34;war&amp;#34;,&amp;#34;bit&amp;#34;,&amp;#34;can&amp;#34;,&amp;#34;gun&amp;#34;,&amp;#34;you&amp;#34;,&amp;#34;six&amp;#34;,&amp;#34;his&amp;#34;,&amp;#34;job&amp;#34;,&amp;#34;act&amp;#34;,&amp;#34;bed&amp;#34;,&amp;#34;sex&amp;#34;,&amp;#34;fly&amp;#34;,&amp;#34;bag&amp;#34;,&amp;#34;own&amp;#34;,&amp;#34;arm&amp;#34;,&amp;#34;put&amp;#34;,&amp;#34;out&amp;#34;,&amp;#34;any&amp;#34;,&amp;#34;hot&amp;#34;,&amp;#34;lay&amp;#34;,&amp;#34;eye&amp;#34;,&amp;#34;cut&amp;#34;,&amp;#34;now&amp;#34;,&amp;#34;nor&amp;#34;,&amp;#34;and&amp;#34;,&amp;#34;oil&amp;#34;,&amp;#34;may&amp;#34;,&amp;#34;her&amp;#34;,&amp;#34;big&amp;#34;,&amp;#34;eat&amp;#34;,&amp;#34;dog&amp;#34;,&amp;#34;leg&amp;#34;,&amp;#34;air&amp;#34;,&amp;#34;say&amp;#34;,&amp;#34;age&amp;#34;,&amp;#34;red&amp;#34;,&amp;#34;not&amp;#34;,&amp;#34;its&amp;#34;,&amp;#34;let&amp;#34;,&amp;#34;the&amp;#34;,&amp;#34;man&amp;#34;,&amp;#34;lot&amp;#34;,&amp;#34;for&amp;#34;,&amp;#34;get&amp;#34;,&amp;#34;she&amp;#34;,&amp;#34;who&amp;#34;,&amp;#34;new&amp;#34;,&amp;#34;way&amp;#34;,&amp;#34;sit&amp;#34;,&amp;#34;buy&amp;#34;,&amp;#34;box&amp;#34;,&amp;#34;ago&amp;#34;,&amp;#34;law&amp;#34;,&amp;#34;key&amp;#34;,&amp;#34;end&amp;#34;,&amp;#34;see&amp;#34;,&amp;#34;old&amp;#34;,&amp;#34;sea&amp;#34;,&amp;#34;far&amp;#34;,&amp;#34;him&amp;#34;,&amp;#34;but&amp;#34;,&amp;#34;art&amp;#34;,&amp;#34;how&amp;#34;,&amp;#34;pay&amp;#34;,&amp;#34;win&amp;#34;,&amp;#34;set&amp;#34;,&amp;#34;top&amp;#34;,&amp;#34;try&amp;#34;,&amp;#34;cup&amp;#34;,&amp;#34;run&amp;#34;,&amp;#34;yet&amp;#34;,&amp;#34;tax&amp;#34;,&amp;#34;gas&amp;#34;,&amp;#34;son&amp;#34;,&amp;#34;too&amp;#34;,&amp;#34;two&amp;#34;,&amp;#34;die&amp;#34;}stable_sort(words.begin(), words.end(),[](const string &amp;amp;a, const string &amp;amp; b){return a.length() &amp;lt; b.length(); }); The output of stable_sort: words = {&amp;#34;kid&amp;#34;,&amp;#34;use&amp;#34;,&amp;#34;ask&amp;#34;,&amp;#34;ten&amp;#34;,&amp;#34;lie&amp;#34;,&amp;#34;yes&amp;#34;,&amp;#34;bad&amp;#34;,&amp;#34;all&amp;#34;,&amp;#34;car&amp;#34;,&amp;#34;boy&amp;#34;,&amp;#34;why&amp;#34;,&amp;#34;hit&amp;#34;,&amp;#34;one&amp;#34;,&amp;#34;our&amp;#34;,&amp;#34;add&amp;#34;,&amp;#34;guy&amp;#34;,&amp;#34;few&amp;#34;,&amp;#34;bar&amp;#34;,&amp;#34;off&amp;#34;,&amp;#34;low&amp;#34;,&amp;#34;day&amp;#34;,&amp;#34;per&amp;#34;,&amp;#34;war&amp;#34;,&amp;#34;bit&amp;#34;,&amp;#34;can&amp;#34;,&amp;#34;gun&amp;#34;,&amp;#34;you&amp;#34;,&amp;#34;six&amp;#34;,&amp;#34;his&amp;#34;,&amp;#34;job&amp;#34;,&amp;#34;act&amp;#34;,&amp;#34;bed&amp;#34;,&amp;#34;sex&amp;#34;,&amp;#34;fly&amp;#34;,&amp;#34;bag&amp;#34;,&amp;#34;own&amp;#34;,&amp;#34;arm&amp;#34;,&amp;#34;put&amp;#34;,&amp;#34;out&amp;#34;,&amp;#34;any&amp;#34;,&amp;#34;hot&amp;#34;,&amp;#34;lay&amp;#34;,&amp;#34;eye&amp;#34;,&amp;#34;cut&amp;#34;,&amp;#34;now&amp;#34;,&amp;#34;nor&amp;#34;,&amp;#34;and&amp;#34;,&amp;#34;oil&amp;#34;,&amp;#34;may&amp;#34;,&amp;#34;her&amp;#34;,&amp;#34;big&amp;#34;,&amp;#34;eat&amp;#34;,&amp;#34;dog&amp;#34;,&amp;#34;leg&amp;#34;,&amp;#34;air&amp;#34;,&amp;#34;say&amp;#34;,&amp;#34;age&amp;#34;,&amp;#34;red&amp;#34;,&amp;#34;not&amp;#34;,&amp;#34;its&amp;#34;,&amp;#34;let&amp;#34;,&amp;#34;the&amp;#34;,&amp;#34;man&amp;#34;,&amp;#34;lot&amp;#34;,&amp;#34;for&amp;#34;,&amp;#34;get&amp;#34;,&amp;#34;she&amp;#34;,&amp;#34;who&amp;#34;,&amp;#34;new&amp;#34;,&amp;#34;way&amp;#34;,&amp;#34;sit&amp;#34;,&amp;#34;buy&amp;#34;,&amp;#34;box&amp;#34;,&amp;#34;ago&amp;#34;,&amp;#34;law&amp;#34;,&amp;#34;key&amp;#34;,&amp;#34;end&amp;#34;,&amp;#34;see&amp;#34;,&amp;#34;old&amp;#34;,&amp;#34;sea&amp;#34;,&amp;#34;far&amp;#34;,&amp;#34;him&amp;#34;,&amp;#34;but&amp;#34;,&amp;#34;art&amp;#34;,&amp;#34;how&amp;#34;,&amp;#34;pay&amp;#34;,&amp;#34;win&amp;#34;,&amp;#34;set&amp;#34;,&amp;#34;top&amp;#34;,&amp;#34;try&amp;#34;,&amp;#34;cup&amp;#34;,&amp;#34;run&amp;#34;,&amp;#34;yet&amp;#34;,&amp;#34;tax&amp;#34;,&amp;#34;gas&amp;#34;,&amp;#34;son&amp;#34;,&amp;#34;too&amp;#34;,&amp;#34;two&amp;#34;,&amp;#34;die&amp;#34;} sort(words.
           
         
         </description>
@@ -108,7 +148,7 @@
         
         
         
-          Email: nguyenld35@gmail.comPhone: (+886) 0986293436 (tw)Skype: (+84) 0974005841 (vn)Github: github.com/...Twitter: twitter.com/...Linkedin: linkedin.com/... 
+          Email: nguyenld35@gmail.comPhone: ...Github: github.com/...Twitter: twitter.com/...Linkedin: linkedin.com/... 
           
         
         </description>

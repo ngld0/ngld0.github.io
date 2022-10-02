@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>
+        Depth First Search ::
+        ngld
+      </title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta
+  name="description"
+  content="Depth First Search (DFS)#Definition#DFS used for traversing tree or graph. The backtracking is used for traversal. Travel from deepest node backtracks it parents. kinds of DFS in tree#Recursive (Time O(n), space O(n))#Preorder (root, left, right) void preorder(struct Node* node){if(node == nullptr) return;cout&amp;lt;&amp;lt;node-&amp;gt;val();preorder(node-&amp;gt;left);preorder(node-&amp;gt;right);} Inorder (left, root, right) void preorder(struct Node* node){if(node == nullptr) return;preorder(node-&amp;gt;left);cout&amp;lt;&amp;lt;node-&amp;gt;val();preorder(node-&amp;gt;right);} Postorder (left,right, root) void preorder(struct Node* node){if(node == nullptr) return;preorder(node-&amp;gt;left);preorder(node-&amp;gt;right);cout&amp;lt;&amp;lt;node-&amp;gt;val();} Iterative#preorder void iterativePreorder(TreeNode root){if(root == nullptr) return;stack&amp;lt;TreeNode&amp;gt; st;TreeNode cur = root;st."
+/>
+<meta
+  name="keywords"
+  content=""
+/>
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="/blogs/depth-first-search/" />
+
+
+
+
+
+<link rel="stylesheet" href="/assets/style.css" />
+
+<link rel="stylesheet" href="/assets/style.css" />
+
+
+<link
+  rel="apple-touch-icon-precomposed"
+  sizes="144x144"
+  href="/img/apple-touch-icon-144-precomposed.png"
+/>
+<link rel="shortcut icon" href="/img/favicon.png" />
+
+
+<link href="/assets/fonts/Inter-Italic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/assets/fonts/Inter-Regular.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/assets/fonts/Inter-Medium.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/assets/fonts/Inter-MediumItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/assets/fonts/Inter-Bold.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/assets/fonts/Inter-BoldItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Depth First Search"/>
+<meta name="twitter:description" content="Depth First Search (DFS)#Definition#DFS used for traversing tree or graph. The backtracking is used for traversal. Travel from deepest node backtracks it parents. kinds of DFS in tree#Recursive (Time O(n), space O(n))#Preorder (root, left, right) void preorder(struct Node* node){if(node == nullptr) return;cout&lt;&lt;node-&gt;val();preorder(node-&gt;left);preorder(node-&gt;right);} Inorder (left, root, right) void preorder(struct Node* node){if(node == nullptr) return;preorder(node-&gt;left);cout&lt;&lt;node-&gt;val();preorder(node-&gt;right);} Postorder (left,right, root) void preorder(struct Node* node){if(node == nullptr) return;preorder(node-&gt;left);preorder(node-&gt;right);cout&lt;&lt;node-&gt;val();} Iterative#preorder void iterativePreorder(TreeNode root){if(root == nullptr) return;stack&lt;TreeNode&gt; st;TreeNode cur = root;st."/>
+
+
+
+<meta property="og:title" content="Depth First Search" />
+<meta property="og:description" content="Depth First Search (DFS)#Definition#DFS used for traversing tree or graph. The backtracking is used for traversal. Travel from deepest node backtracks it parents. kinds of DFS in tree#Recursive (Time O(n), space O(n))#Preorder (root, left, right) void preorder(struct Node* node){if(node == nullptr) return;cout&lt;&lt;node-&gt;val();preorder(node-&gt;left);preorder(node-&gt;right);} Inorder (left, root, right) void preorder(struct Node* node){if(node == nullptr) return;preorder(node-&gt;left);cout&lt;&lt;node-&gt;val();preorder(node-&gt;right);} Postorder (left,right, root) void preorder(struct Node* node){if(node == nullptr) return;preorder(node-&gt;left);preorder(node-&gt;right);cout&lt;&lt;node-&gt;val();} Iterative#preorder void iterativePreorder(TreeNode root){if(root == nullptr) return;stack&lt;TreeNode&gt; st;TreeNode cur = root;st." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/blogs/depth-first-search/" /><meta property="article:section" content="blogs" />
+<meta property="article:published_time" content="2022-08-07T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-08-07T00:00:00+00:00" /><meta property="og:site_name" content="ngld" />
+
+
+
+
+
+
+
+  </head>
+  <body class="dark-theme">
+    <div class="container">
+      <header class="header">
+  <span class="header__inner">
+    <a
+  href="/"
+  class="logo"
+  style="text-decoration: none;"
+>
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367" />
+</svg>
+</span>
+    <span class="logo__text"
+      >ngld</span
+    >
+    <span class="logo__cursor"></span>
+  
+</a>
+
+    <span class="header__right">
+      
+        
+<nav class="menu">
+  
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+
+          <li >
+            <a href="/about" >
+              About</a>
+          </li>
+        
+      
+        
+
+          <li >
+            <a href="/blogs" >
+              Blogs</a>
+          </li>
+        
+      
+        
+
+          <li >
+            <a href="/contact" >
+              Contact</a>
+          </li>
+        
+      
+        
+
+          <li >
+            <a href="/tags" >
+              Tags</a>
+          </li>
+        
+      
+      
+      
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about">About</a></li>
+      
+    
+      
+        <li><a href="/blogs">Blogs</a></li>
+      
+    
+      
+        <li><a href="/contact">Contact</a></li>
+      
+    
+      
+        <li><a href="/tags">Tags</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none" />
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+          </svg>
+        </span>
+      <span class="theme-toggle">
+        <svg
+  class="theme-toggler"
+  width="24"
+  height="24"
+  viewBox="0 0 48 48"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"
+  />
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+  
+  
+
+  <div class="post">
+    <h1 class="post-title">Depth First Search</h1>
+    <div class="post-meta">
+      
+        <span class="post-date">
+          2022-08-07
+        </span>
+
+        
+          
+        
+      
+
+      
+
+
+      
+    </div>
+
+    
+      <span class="post-tags">
+        
+          <a href="/tags/blogs/">#blogs</a>&nbsp;
+        
+          <a href="/tags/dfs/">#DFS</a>&nbsp;
+        
+          <a href="/tags/depth-first-search/">#Depth First Search</a>&nbsp;
+        
+          <a href="/tags/algorithm/">#Algorithm</a>&nbsp;
+        
+      </span>
+    
+
+    
+
+    
+    <div class="post-content">
+      
+      
+      <h2 id="depth-first-search-dfs">
+  Depth First Search (DFS)
+  <a href="#depth-first-search-dfs" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<h3 id="definition">
+  Definition
+  <a href="#definition" class="h-anchor" aria-hidden="true">#</a>
+</h3>
+<ul>
+<li>DFS used for traversing <code>tree</code> or <code>graph</code>.</li>
+<li>The backtracking is used for traversal.</li>
+<li>Travel from deepest node backtracks it parents.</li>
+</ul>
+<h3 id="kinds-of-dfs-in-tree">
+  kinds of DFS in tree
+  <a href="#kinds-of-dfs-in-tree" class="h-anchor" aria-hidden="true">#</a>
+</h3>
+<h4 id="recursive-time-on-space-on">
+  Recursive (<code>Time O(n)</code>, <code>space O(n)</code>)
+  <a href="#recursive-time-on-space-on" class="h-anchor" aria-hidden="true">#</a>
+</h4>
+<ul>
+<li>Preorder (root, left, right)
+<pre tabindex="0"><code>void preorder(struct Node* node){
+    if(node == nullptr) 
+        return;
+    cout&lt;&lt;node-&gt;val();
+    preorder(node-&gt;left);
+    preorder(node-&gt;right);
+}
+</code></pre></li>
+<li>Inorder (left, root, right)
+<pre tabindex="0"><code>void preorder(struct Node* node){
+    if(node == nullptr) 
+        return;
+    preorder(node-&gt;left);
+    cout&lt;&lt;node-&gt;val();
+    preorder(node-&gt;right);
+}
+</code></pre></li>
+<li>Postorder (left,right, root)
+<pre tabindex="0"><code>void preorder(struct Node* node){
+    if(node == nullptr) 
+        return;
+    preorder(node-&gt;left);
+    preorder(node-&gt;right);
+    cout&lt;&lt;node-&gt;val();
+}
+</code></pre></li>
+</ul>
+<h4 id="iterative">
+  Iterative
+  <a href="#iterative" class="h-anchor" aria-hidden="true">#</a>
+</h4>
+<ul>
+<li>preorder
+<pre tabindex="0"><code>void iterativePreorder(TreeNode root){
+    if(root == nullptr) return;
+
+    stack&lt;TreeNode&gt; st;
+    TreeNode cur = root;
+    st.push(root);
+
+    while(!st.empty()){
+
+        cur = st.pop();
+        cout&lt;&lt; cur-&gt;val();
+
+        if(cur-&gt;right != nullptr){
+            st.push(cur-&gt;right);
+        }
+        if(cur-&gt;left != nullptr){
+            st.push(cur-&gt;left);
+        }
+    }
+}
+</code></pre></li>
+<li>inorder
+<pre tabindex="0"><code>void iterativeInorder(TreeNode root){
+    if(root == nullptr) return;
+    stack&lt;TreeNode&gt; st;
+    TreeNode cur = root;
+    while(!st.empty() || cur != nullptr ){
+        if(cur != nullptr){
+            st.push(cur);
+            cur = cur-&gt;left;
+        }
+        else {
+            cur = st.pop();
+            cout&lt;&lt; cur-&gt;val();
+            cur = cur-&gt;right;
+        }
+    }
+}
+</code></pre></li>
+<li>postorder
+<pre tabindex="0"><code>void iterativePostorder(TreeNode root){
+    if(root == nullptr) return;
+    stack&lt;TreeNode&gt; st;
+    stack&lt;TreeNode&gt; right_st;
+    TreeNode cur = root;
+    while(!st.empty()){
+        if(cur != nullptr){
+            if(cur-&gt;right != nullptr){
+                right_st.push(cur-&gt;right);
+            }
+            st.push(cur);
+            cur = cur-&gt;left;
+        }
+        else {
+            cur = st.top();
+            if(!right_st.empty() &amp;&amp; cur-&gt;right == right_st.top){
+                cur = right_st.pop();
+            }
+            else {
+                cout&lt;&lt; cur-&gt;val();
+                st.pop();
+                cur = nullptr;
+            }
+        }
+    }
+}
+</code></pre></li>
+</ul>
+<h3 id="dfs-in-graph-time-ov--e-space-o-v-e--number-of-edges-v--number-of-vertices">
+  DFS in Graph (<code>Time O(V + E)</code>, <code>Space O (V)</code>; E = number of edges, V = number of Vertices)
+  <a href="#dfs-in-graph-time-ov--e-space-o-v-e--number-of-edges-v--number-of-vertices" class="h-anchor" aria-hidden="true">#</a>
+</h3>
+<ul>
+<li>
+<p>recursive</p>
+<pre tabindex="0"><code>DFS(Graph, Vertex){
+    Vertex.visited = true;
+    for(child : Graph){
+        if(child.visited == false){
+            DFS(Graph, child);
+        }
+    }
+
+}
+</code></pre></li>
+<li>
+<p>Iterative (non-recursive) DFS is similar with non-recursive BFS, but it has the differents, which are:</p>
+<ul>
+<li>used <code>stack</code> instead of <code>queue</code></li>
+<li>mark discovered after poping the vertex, not before pushing</li>
+<li>used <code>a reserve iterator</code> instead of <code>an iterator</code> to produce the same result as recursive DFS.</li>
+</ul>
+<pre tabindex="0"><code>void iterativeDFS(Graph &amp;graph, int v, vector&lt;bool&gt; &amp;discovered){
+    stack&lt;int&gt; st;
+    st.push(v);
+    while(!st.empty()){
+        v=st.top();
+        st.pop();
+        if(discovered(v)) continue;
+        discovered(v) = true;
+        cout&lt;&lt; v &lt;&lt;endl;
+        // reverse iterator
+        for(auto it=graph.adjList[v].rbegin(); it &lt; graph.adjList[v].rbend(); it++){
+
+            int u = *it;
+            if(!discovered[u]) st.push(u);
+        }
+    }
+}
+</code></pre></li>
+</ul>
+
+    </div>
+   
+    
+      
+        <div class="pagination">
+          <div class="pagination__title">
+            <span class="pagination__title-h"
+              >Other Posts</span
+            >
+            <hr />
+          </div>
+          <div class="pagination__buttons">
+            
+              <span class="button previous">
+                <a href="/blogs/fasterio/">
+                  <span class="button__icon">←</span>
+                  <span class="button__text">FasterIO</span>
+                </a>
+              </span>
+            
+            
+              <span class="button next">
+                <a href="/blogs/bit_operation/">
+                  <span class="button__text">bit_operation</span>
+                  <span class="button__icon">→</span>
+                </a>
+              </span>
+            
+          </div>
+        </div>
+      
+    
+    
+      
+        
+
+      
+    
+  </div>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      
+        <span
+          >© 2022 | Made by
+          <a href="https://twitter.com/ngld0" target="_blank" rel="noopener">ngld</a></span
+        >
+        <span> 
+          <div>
+
+              &nbsp; <a href="https://github.com/ngld0" target="_blank" rel="noopener" title="Github"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a> &nbsp;&nbsp; <a href="https://www.leetcode.com/ngld0" target="_blank" rel="noopener" title="Leetcode"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"><path d="M16.102 17.93l-2.697 2.607c-.466.467-1.111.662-1.823.662s-1.357-.195-1.824-.662l-4.332-4.363c-.467-.467-.702-1.15-.702-1.863s.235-1.357.702-1.824l4.319-4.38c.467-.467 1.125-.645 1.837-.645s1.357.195 1.823.662l2.697 2.606c.514.515 1.365.497 1.9-.038.535-.536.553-1.387.039-1.901l-2.609-2.636a5.055 5.055 0 0 0-2.445-1.337l2.467-2.503c.516-.514.498-1.366-.037-1.901-.535-.535-1.387-.552-1.902-.038l-10.1 10.101c-.981.982-1.494 2.337-1.494 3.835 0 1.498.513 2.895 1.494 3.875l4.347 4.361c.981.979 2.337 1.452 3.834 1.452s2.853-.512 3.835-1.494l2.609-2.637c.514-.514.496-1.365-.039-1.9s-1.386-.553-1.899-.039zM20.811 13.01H10.666c-.702 0-1.27.604-1.27 1.346s.568 1.346 1.27 1.346h10.145c.701 0 1.27-.604 1.27-1.346s-.569-1.346-1.27-1.346z"/></svg></a> &nbsp;&nbsp; <a href="https://twitter.com/" target="_blank" rel="noopener" title="Twitter"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/ngld0" target="_blank" rel="noopener" title="Linkedin"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a> &nbsp;&nbsp; <a href="mailto:nguyenld35@gmail.com" target="_blank" rel="noopener" title="Email"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg></a> &nbsp;</div>
+        </span>
+      </div>
+
+    
+  </div>
+</footer>
+
+<script src="/assets/main.js"></script>
+<script src="/assets/prism.js"></script>
+
+
+      
+    </div>
+
+    
+  </body>
+</html>
