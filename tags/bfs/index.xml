@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BFS on ngld</title>
+    
+    
+    
+    <link>/tags/bfs/</link>
+    <description>Recent content in BFS on ngld</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 07 Aug 2022 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/bfs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Breadth First Search</title>
+      <link>/blogs/breadth-first-search/</link>
+      <pubDate>Sun, 07 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/blogs/breadth-first-search/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Breadth First Search#BFS in Tree#Recursive#Iterative (Time O(V + E), Space O(v))#void bfs(TreeNode* root){if(root == nullptr) return;queue&amp;lt;TreeNode*&amp;gt; que;que.push(root);while(!que.empty()){TreeNode* node = que.front();cout &amp;lt;&amp;lt; node-&amp;gt;val();que.pop();if(node-&amp;gt;left != nullptr) que.push(node-&amp;gt;left);if(node-&amp;gt;right != nullptr) que.push(node-&amp;gt;right);}} BFS in Graph#void bfs(int s){vector&amp;lt;bool&amp;gt; visited;visited.resize(V, false);list&amp;lt;int&amp;gt; que;visited[s] = true;que.push_back(s);while(!que.empty){s =que.front();cout&amp;lt;&amp;lt;s;que.pop_front();for(auto ad : adj[s]){if(!
+          
+        
+        </description>
+    </item>
+    
+  </channel>
+</rss>

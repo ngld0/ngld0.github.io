@@ -183,6 +183,55 @@
   <div class="posts" style="width:100%">
     
       <div class="post on-list">
+        <h1 class="post-title"><a href="/blogs/breadth-first-search/">Breadth First Search</a></h1>
+        <div class="post-meta">
+          
+            <span class="post-date">
+              2022-08-07
+            </span>
+
+            
+          
+          
+
+
+          
+        </div>
+
+        
+          <span class="post-tags">
+            
+              <a href="/tags/blogs/">#blogs</a>&nbsp;
+            
+              <a href="/tags/breadth-first-search/">#Breadth First Search</a>&nbsp;
+            
+              <a href="/tags/bfs/">#BFS</a>&nbsp;
+            
+              <a href="/tags/algorithm/">#Algorithm</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+        <div class="post-content">
+          
+            
+              Breadth First Search#BFS in Tree#Recursive#Iterative (Time O(V + E), Space O(v))#void bfs(TreeNode* root){if(root == nullptr) return;queue&lt;TreeNode*&gt; que;que.push(root);while(!que.empty()){TreeNode* node = que.front();cout &lt;&lt; node-&gt;val();que.pop();if(node-&gt;left != nullptr) que.push(node-&gt;left);if(node-&gt;right != nullptr) que.push(node-&gt;right);}} BFS in Graph#void bfs(int s){vector&lt;bool&gt; visited;visited.resize(V, false);list&lt;int&gt; que;visited[s] = true;que.push_back(s);while(!que.empty){s =que.front();cout&lt;&lt;s;que.pop_front();for(auto ad : adj[s]){if(!
+            
+          
+        </div>
+        
+        
+          <div>
+            <a class="read-more button" href="/blogs/breadth-first-search/"
+              >More →</a
+            >
+          </div>
+        
+      </div>
+    
+      <div class="post on-list">
         <h1 class="post-title"><a href="/blogs/depth-first-search/">Depth First Search</a></h1>
         <div class="post-meta">
           
