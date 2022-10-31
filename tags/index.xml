@@ -9,30 +9,10 @@
     <description>Recent content in Tags on ngld</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 07 Aug 2022 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>blogs</title>
-      <link>/tags/blogs/</link>
-      <pubDate>Tue, 16 Aug 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/blogs/</guid>
-      <description>
-        
-          
-          
-          
-        
-        
-        
-          
-          
-        
-        </description>
-    </item>
     
     <item>
       <title>Algorithm</title>
@@ -60,6 +40,26 @@
       <pubDate>Sun, 07 Aug 2022 00:00:00 +0000</pubDate>
       
       <guid>/tags/bfs/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>blogs</title>
+      <link>/tags/blogs/</link>
+      <pubDate>Sun, 07 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/blogs/</guid>
       <description>
         
           

@@ -9,30 +9,10 @@
     <description>Recent content on ngld</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 07 Aug 2022 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>FasterIO</title>
-      <link>/blogs/fasterio/</link>
-      <pubDate>Tue, 16 Aug 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/blogs/fasterio/</guid>
-      <description>
-        
-          
-          
-          
-        
-        
-        
-          Using this for c++#auto fasterIO = []() {std::ios::sync_with_stdio(false);cin.tie(nullptr);cout.tie(nullptr);return 0;}();// orauto fasterIO = []() {std::ios::sync_with_stdio(false);cin.tie(nullptr);cout.tie(nullptr);return 0;}(); 
-          
-        
-        </description>
-    </item>
     
     <item>
       <title>Breadth First Search</title>
@@ -148,7 +128,7 @@
         
         
         
-          Hi, I&amp;rsquo;m Nguyen Lam [MY CV]#I am a Software Developer Working Experiences#1. Research Assistant at **Multimedia Mobile Networks Laboratory (MMNETLab)**2. Backend Developer at **TMA Solutions**- Projects: Omnivista Cirrus, Omnivista 2500 NMS.3. Android Internship at **BeesighSoft** Projects#1. Multi-platoons Resource Allocation2. Image Processing, Deep Learning3. Evaluate Android Kernel Security by Analysing Source Code **[UIT Essay]**4. Weather Preduction App **[UIT Course Proejct]** Skills#- Pogramming Languages: C/C++, Java, Python, Javascript, Matlab- Databases: SQL, No-SQL- OS: Window, Linux- Network: CCNA- Languages: .
+          Hi, I&amp;rsquo;m Nguyen Lam [MY CV]#I am a Software Developer Working Experiences#1. Research Assistant at **Multimedia Mobile Networks Laboratory (MMNETLab)**2. Backend Developer at **TMA Solutions**- Projects: Omnivista Cirrus, Omnivista 2500 NMS.3. Android Internship at **BeesighSoft** Projects#1. Multi-platoons Resource Allocation2. Image Processing, Deep Learning3. Evaluate Android Kernel Security by Analysing Source Code **[UIT Essay]**4. Weather Prediction App **[UIT Course Proejct]** Skills#- Pogramming Languages: C/C++, Java, Python, Javascript, Matlab- Databases: SQL, No-SQL- OS: Window, Linux- Network: CCNA- Languages: .
           
         
         </description>
@@ -169,6 +149,26 @@
         
         
           Email: nguyenld35@gmail.comPhone: ...Github: github.com/...Twitter: twitter.com/...Linkedin: linkedin.com/... 
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/blogs/fasterio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/blogs/fasterio/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          b&amp;mdash; title : &amp;ldquo;FasterIO&amp;rdquo; date : 2022-08-16 author : &amp;quot;&amp;quot; cover : &amp;quot;&amp;quot; description : &amp;quot;&amp;quot; tags : [&amp;lsquo;blogs&amp;rsquo;] draft : false#Using this for c++#auto fasterIO = []() {std::ios::sync_with_stdio(false);cin.tie(nullptr);cout.tie(nullptr);return 0;}();// orauto fasterIO = []() {std::ios::sync_with_stdio(false);cin.tie(nullptr);cout.tie(nullptr);return 0;}(); 
           
         
         </description>
